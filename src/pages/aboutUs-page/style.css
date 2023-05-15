@@ -1,0 +1,95 @@
+p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;  
+}
+
+.aboutUs-page-about-us{
+    background-color:  #F1EFE8;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 120px 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.aboutUs-page-content{
+    display: flex;
+    padding: 50px 100px;
+}
+
+.aboutUs-page-description-first{
+    max-width: 52%;
+}
+
+.aboutUs-page-description-second{
+    max-width: 47%;
+}
+
+.aboutUs-page-description-third{
+    max-width: 46%;
+}
+
+.aboutUs-page-description-fourth{
+    max-width: 36%;
+}
+
+.aboutUs-page-description-fifth{
+    max-width: 41%;
+}
+
+.aboutUs-page-description-sixth{
+    max-width: 54%;
+}
+
+.aboutUs-page-description-seventh{
+    padding-top: 60px;
+}
+
+.aboutUs-page-image{
+    position: relative;
+}
+
+.aboutUs-page-image-first img{
+    position: absolute;
+    width: 350px;
+    top: 100px;
+    left: -320px;
+    /* z-index: 0; */
+}
+
+.aboutUs-page-image-second img{
+    position: absolute;
+    width: 350px;
+    top: 220px;
+    left: -550px;
+    border: 10px solid #ffffff;
+    /* z-index: 1; */
+}
+
+.aboutUs-page-image-third img{
+    position: absolute;
+    width: 350px;
+    top: 380px;
+    left: -330px;
+    border: 10px solid #ffffff;
+    /* z-index: 2; */
+}
+
+.aboutUs-page-link{
+    padding-left: 100px;
+}
+
+.aboutUs-page-video{
+    width: 270px;
+    padding: 24px 32px;
+    background: #000000;
+    border-radius: 20px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 0px 3.5px #FFFFFF;
+}
