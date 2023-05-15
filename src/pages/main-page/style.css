@@ -176,3 +176,193 @@
     text-align: center;
     color: #FFFFFF;
 }
+
+.education-wrap {
+    padding-top: 200px;
+}
+
+.education-header {
+    margin: 0;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #000000;
+}
+
+.education-underline {
+    margin: 0 auto;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    width: 100px;
+    height: 0px;
+}
+
+.education-card-block {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.education-card-wrap {
+    max-width: 340px; 
+}
+
+.education-card-icon-wrap {
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+    background: #000000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.education-card-icon-medal {
+    margin: 0 auto;
+    background: url(../../images/icons/medal.svg) center center/contain no-repeat;
+    width: 22px;
+    height: 22px;
+}
+
+.education-card-icon-airplane {
+    margin: 0 auto;
+    background: url(../../images/icons/airplane.svg) center center/contain no-repeat;
+    width: 22px;
+    height: 22px;
+}
+
+.education-card-text {
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+
+.card-width {
+    width: 325px;
+}
+
+.our-courses {
+    padding-top: 200px;
+}
+
+.our-courses-header {
+    margin: 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000;
+}
+
+.our-courses-underline {
+    margin: 0 auto;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    width: 100px;
+    height: 0px;
+    margin-bottom: 100px;
+}
+
+.all-cards-wrap {
+    margin: 0 auto;
+}
+
+.barber-card-wrap, .massage-card-wrap, .hairdresser-card-wrap, .visagiste-card-wrap {
+    margin: 50px auto;
+    width: 720px;
+    height: 300px;
+    display: flex;
+}
+
+.barber-card-block, .massage-card-block, .hairdresser-card-block, .visagiste-card-block{
+    padding-left: 50px;
+}
+
+.barber-card-wrap {
+    background: #4996F4;
+    border-radius: 40px;
+}
+
+
+.massage-card-wrap {
+    background: #A9F7F7;
+    border-radius: 40px;
+}
+
+.hairdresser-card-wrap {
+    background: #FFCF48;
+    border-radius: 40px;
+}
+
+.visagiste-card-wrap {
+    background: #FFD1DC;
+    border-radius: 40px;
+}
+
+.all-cards-header {
+    margin: 0;
+    padding-top: 53px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.all-cards-subheader {
+    margin: 0;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000;
+}
+
+.all-cards-text {
+    margin: 0;
+    padding: 20px 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.all-cards-price{
+    max-width: 210px;
+    margin: 0;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000;
+}
+
+.barber-card-img {
+    background: url(../../images/photo/barber.png) center center/contain no-repeat;
+    width: 365px;
+    height: 300px;
+    margin-left: 96px;
+}
+
+.massage-card-img {
+    background: url(../../images/photo/massage.png) center center/contain no-repeat;
+    width: 365px;
+    height: 300px;
+    margin-left: 157px;
+}
+
+.hairdresser-card-img {
+    background: url(../../images/photo/hairdresser.png) center center/contain no-repeat;
+    width: 365px;
+    height: 300px;
+    margin-left: 85px;
+}
+
+.visagiste-card-img {
+    background: url(../../images/photo/visagiste.png) center center/contain no-repeat;
+    width: 365px;
+    height: 300px;
+    margin-left: 85px;
+}
