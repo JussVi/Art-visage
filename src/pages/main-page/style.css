@@ -1,9 +1,30 @@
 
 
 .main-page-header {
-    margin-top: 140px;
+    max-width: 511px;
+    margin: 140px 0 0 0;
     font-weight: 500;
     font-size: 50px;
     line-height: 120%;
     color: #000000;
+}
+
+.main-page-subheader {
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    color: #FFF646;
+    text-shadow: 0px 0px 10px #B97E16,0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+    -webkit-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+    -moz-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+}
+
+.main-page-text {
+    margin: 0;
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
 }

@@ -2,6 +2,16 @@
 
 * {
     font-family: 'Raleway', sans-serif;
+    box-sizing: border-box ;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+span {
+    display: block;
 }
 
 .container {
