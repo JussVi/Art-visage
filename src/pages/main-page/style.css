@@ -331,7 +331,7 @@
 }
 
 .all-cards-price{
-    max-width: 210px;
+    width: 215px;
     margin: 0;
     font-weight: 600;
     font-size: 40px;
@@ -343,7 +343,7 @@
     background: url(../../images/photo/barber.png) center center/contain no-repeat;
     width: 365px;
     height: 300px;
-    margin-left: 96px;
+    margin-left: 89px;
 }
 
 .massage-card-img {
