@@ -1,7 +1,8 @@
 import React from 'react';
 import './style.css'
-import img1 from '../../images/aboutUs-one.JPG'
-import img2 from '../../images/aboutUs-two.JPG'
+import img1 from '../../images/photo/aboutUs-one.JPG'
+import img2 from '../../images/photo/aboutUs-two.JPG'
+import img3 from '../../images/photo/aboutUs-two.JPG'
 
 const AboutUs = () => {
   return (
@@ -24,8 +25,13 @@ const AboutUs = () => {
           <div className='aboutUs-page-image-second'>
             <img src={img2} alt="" />
           </div>
-          <div className='aboutUs-page-image-third'></div>
+          <div className='aboutUs-page-image-third'>
+            <img src={img3} alt="" />
+          </div>
         </div>
+      </div>
+      <div className='aboutUs-page-link'>
+        <a className='aboutUs-page-video' href="">Смотреть видео о нас</a>
       </div>
     </div>
   );
