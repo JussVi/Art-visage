@@ -11,27 +11,27 @@
 }
 
 .aboutUs-page-description-first{
-    width: 58%;
+    max-width: 58%;
 }
 
 .aboutUs-page-description-second{
-    width: 52%;
+    max-width: 52%;
 }
 
 .aboutUs-page-description-third{
-    width: 54%;
+    max-width: 54%;
 }
 
 .aboutUs-page-description-fourth{
-    width: 40%;
+    max-width: 40%;
 }
 
 .aboutUs-page-description-fifth{
-    width: 46%;
+    max-width: 46%;
 }
 
 .aboutUs-page-description-sixth{
-    width: 60%;
+    max-width: 60%;
 }
 
 .aboutUs-page-image-first img{
