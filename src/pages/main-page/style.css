@@ -1,0 +1,178 @@
+.main-page-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-page-header {
+    max-width: 511px;
+    margin: 140px 0 0 0;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.main-page-subheader {
+    margin: 0;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    color: #FFF646;
+    text-shadow: 0px 0px 10px #B97E16,0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+    -webkit-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+    -moz-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+}
+
+.main-page-text {
+    margin: 0;
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+}
+
+.main-page-button {
+    margin-top: 63px;
+    padding: 23px 44px;
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 3.5px #FFFFFF;
+}
+
+.main-block-info {
+    display: flex;
+    align-items: center;
+}
+
+.main-block-info-people {
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.408px;
+    color: #FFF646;
+    text-shadow: 0px 0px 10px #B97E16,0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+    -webkit-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+    -moz-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+}
+
+.main-block-info-specialists {
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.408px;
+    color: #000000;
+}
+
+.main-block-info-flat-stick {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.main-block-info-years {
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.408px;
+    color: #FFF646;
+    text-shadow: 0px 0px 10px #B97E16,0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+    -webkit-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+    -moz-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+}
+
+.main-block-info-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.408px;
+    color: #000000;
+}
+
+.main-page-img {
+    padding-left: 200px;
+    background: url(../../images/photo/ANTON.jpg) center center/contain no-repeat;
+    width: 690px;
+    height: 720px;
+}
+
+.why-we-wrap {
+    padding-top: 200px;
+}
+
+.why-we-header{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000;
+    margin: 0;
+}
+
+.why-we-underline {
+    margin: 0 auto;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    width: 100px;
+    height: 0px;
+}
+
+.why-we-card-block {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 135px;
+}
+
+.why-we-card-wrap {
+    width: 200px;
+    height: 200px;
+    background: #000;
+    border-radius: 40px;
+    padding: 65px 16px;
+    position: relative;
+}
+
+.why-we-icon-wrap {
+    height: 60px;
+    position: absolute;
+    background: black;
+    padding: 16px 26px;
+    top: -35px;
+    right: 65px;
+    border-radius: 50%;
+}
+
+.why-we-card-icon-diplom {
+    background: url(../../images/icons/diplom.svg) center center/contain no-repeat;
+    width: 17px;
+    height: 17px;
+}
+
+.why-we-card-icon-cut {
+    background: url(../../images/icons/cut.svg) center center/contain no-repeat;
+    width: 17px;
+    height: 17px;
+}
+
+.why-we-card-icon-student {
+    background: url(../../images/icons/student.svg) center center/contain no-repeat;
+    width: 17px;
+    height: 17px;
+}
+
+.why-we-card-text {
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
