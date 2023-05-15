@@ -1,0 +1,43 @@
+.aboutUs-page-about-us{
+    background-color:  #F1EFE8;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 120px 0px;
+}
+
+.aboutUs-page-content{
+    display: flex;
+    padding: 50px 100px;
+}
+
+.aboutUs-page-description-first{
+    width: 58%;
+}
+
+.aboutUs-page-description-second{
+    width: 52%;
+}
+
+.aboutUs-page-description-third{
+    width: 54%;
+}
+
+.aboutUs-page-description-fourth{
+    width: 40%;
+}
+
+.aboutUs-page-description-fifth{
+    width: 46%;
+}
+
+.aboutUs-page-description-sixth{
+    width: 60%;
+}
+
+.aboutUs-page-image-first img{
+    width: 350px;
+}
+
+.aboutUs-page-image-second img{
+    width: 350px;
+}
