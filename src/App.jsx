@@ -26,7 +26,7 @@ function App() {
         <Route exact path='/masters'>
           <Masters />
         </Route>
-        <Route exact path='/masters'>
+        <Route exact path='/contacts'>
           <Contacts />
         </Route>
       </Switch>
