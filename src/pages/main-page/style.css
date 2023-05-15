@@ -100,7 +100,7 @@
 .main-page-img {
     padding-left: 200px;
     background: url(../../images/photo/ANTON.jpg) center center/contain no-repeat;
-    width: 690px;
+    width: 480px;
     height: 720px;
 }
 
@@ -328,6 +328,10 @@
     font-size: 20px;
     line-height: 23px;
     color: #000000;
+}
+
+.hairdresser-text {
+    padding: 10px 0;
 }
 
 .all-cards-price{
