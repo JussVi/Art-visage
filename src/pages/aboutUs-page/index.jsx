@@ -1,9 +1,10 @@
 import React from 'react';
+import './style.css'
 
 const AboutUs = () => {
   return (
     <div>
-      About
+      
     </div>
   );
 };
