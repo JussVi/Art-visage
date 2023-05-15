@@ -1,5 +1,6 @@
 .main-page-wrap {
     display: flex;
+    justify-content: space-around;
 }
 
 .main-page-header {
@@ -98,7 +99,80 @@
 
 .main-page-img {
     padding-left: 200px;
-    background: url(../../images/ANTON.png) center center/contain no-repeat;
+    background: url(../../images/photo/ANTON.jpg) center center/contain no-repeat;
     width: 690px;
-    height: 700px;
+    height: 720px;
+}
+
+.why-we-wrap {
+    padding-top: 200px;
+}
+
+.why-we-header{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000;
+    margin: 0;
+}
+
+.why-we-underline {
+    margin: 0 auto;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    width: 100px;
+    height: 0px;
+}
+
+.why-we-card-block {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 135px;
+}
+
+.why-we-card-wrap {
+    width: 200px;
+    height: 200px;
+    background: #000;
+    border-radius: 40px;
+    padding: 65px 16px;
+    position: relative;
+}
+
+.why-we-icon-wrap {
+    height: 60px;
+    position: absolute;
+    background: black;
+    padding: 16px 26px;
+    top: -35px;
+    right: 65px;
+    border-radius: 50%;
+}
+
+.why-we-card-icon-diplom {
+    background: url(../../images/icons/diplom.svg) center center/contain no-repeat;
+    width: 17px;
+    height: 17px;
+}
+
+.why-we-card-icon-cut {
+    background: url(../../images/icons/cut.svg) center center/contain no-repeat;
+    width: 17px;
+    height: 17px;
+}
+
+.why-we-card-icon-student {
+    background: url(../../images/icons/student.svg) center center/contain no-repeat;
+    width: 17px;
+    height: 17px;
+}
+
+.why-we-card-text {
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
 }
