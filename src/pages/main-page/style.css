@@ -1,4 +1,6 @@
-
+.main-page-wrap {
+    display: flex;
+}
 
 .main-page-header {
     max-width: 511px;
@@ -10,7 +12,7 @@
 }
 
 .main-page-subheader {
-    margin-top: 0;
+    margin: 0;
     font-weight: 600;
     font-size: 60px;
     line-height: 70px;
@@ -27,4 +29,76 @@
     font-size: 20px;
     line-height: 23px;
     color: #888888;
+}
+
+.main-page-button {
+    margin-top: 63px;
+    padding: 23px 44px;
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.408px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 3.5px #FFFFFF;
+}
+
+.main-block-info {
+    display: flex;
+    align-items: center;
+}
+
+.main-block-info-people {
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.408px;
+    color: #FFF646;
+    text-shadow: 0px 0px 10px #B97E16,0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+    -webkit-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+    -moz-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+}
+
+.main-block-info-specialists {
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.408px;
+    color: #000000;
+}
+
+.main-block-info-flat-stick {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.main-block-info-years {
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.408px;
+    color: #FFF646;
+    text-shadow: 0px 0px 10px #B97E16,0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+    -webkit-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+    -moz-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+}
+
+.main-block-info-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.408px;
+    color: #000000;
+}
+
+.main-page-img {
+    padding-left: 200px;
+    background: url(../../images/ANTON.png) center center/contain no-repeat;
+    width: 690px;
+    height: 700px;
 }
