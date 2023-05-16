@@ -118,6 +118,7 @@
     width: 1690px;
     overflow: hidden;
     margin: 0 auto;
+    border-radius: 100px;
 }
 
 .black-ticker .marquee span {
@@ -138,6 +139,7 @@
     width: 1690px;
     overflow: hidden;
     margin: 0 auto;
+    border-radius: 100px;
 }
 
 .marquee {
