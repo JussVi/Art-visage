@@ -100,9 +100,85 @@
 .main-page-img {
     padding-left: 200px;
     background: url(../../images/photo/ANTON.jpg) center center/contain no-repeat;
-    width: 690px;
+    width: 480px;
     height: 720px;
 }
+
+    /*Бегущая строка на главной странице */
+
+.tickers {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.black-ticker {
+    background: black;
+    height: 80px;
+    width: 1690px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.black-ticker .marquee span {
+    display:inline-block;
+    width:100%;
+    padding-top: 15px;
+    text-indent:0;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    color: white;
+    animation: marquee-black 25s linear infinite
+}
+
+.yellow-ticker {
+    background: yellow;
+    height: 80px;
+    width: 1690px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.marquee {
+    text-align:center;
+    width:100%;
+    overflow:hidden;
+    white-space: nowrap;
+}
+
+.marquee span {
+    display:inline-block;
+    width:100%;
+    padding-top: 15px;
+    text-indent:0;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000;
+    animation: marquee-yellow 25s linear infinite
+}
+
+@keyframes marquee-yellow {
+    0%  {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes marquee-black {
+    0%  {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+    /*Завершение кода для бегущей строки */
+
 
 .why-we-wrap {
     padding-top: 200px;
@@ -328,6 +404,10 @@
     font-size: 20px;
     line-height: 23px;
     color: #000000;
+}
+
+.hairdresser-text {
+    padding: 10px 0;
 }
 
 .all-cards-price{

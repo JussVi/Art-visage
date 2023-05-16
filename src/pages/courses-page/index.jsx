@@ -1,12 +1,9 @@
-import React from 'react';
 import './style.css'
 
-const Courses = () => {
+export default function Courses () {
   return (
     <div>
-
+      Курсы
     </div>
   );
-};
-
-export default Courses;
+}

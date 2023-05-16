@@ -3,6 +3,7 @@ import './style.css'
 
 const MainPage = () => {
   return (
+    <>
     <div className='container'>
       <div className='main-page-wrap'>
         <div className='main-page-block'>
@@ -22,7 +23,29 @@ const MainPage = () => {
           <span className='main-page-img'></span>
         </div>
       </div>
+      </div>
 
+     <div className='tickers'>
+       <div className="black-ticker">
+
+         <div className="marquee">
+           <span>• Индивидуальный подход • Наилучшие результаты • Востребованность выпускников </span>
+           <span>• Индивидуальный подход • Наилучшие результаты • Востребованность выпускников </span>
+         </div>
+
+       </div>
+
+       <div className="yellow-ticker">
+
+         <div className="marquee">
+           <span>• Индивидуальный подход • Наилучшие результаты • Востребованность выпускников </span>
+           <span>• Индивидуальный подход • Наилучшие результаты • Востребованность выпускников </span>
+         </div>
+
+       </div>
+     </div>
+
+  <div className='container'>
       <div className="why-we-wrap">
         <p className="why-we-header">ПОЧЕМУ МЫ?</p>
         <p className="why-we-underline"></p>
@@ -97,7 +120,7 @@ const MainPage = () => {
             <div className="hairdresser-card-block">
               <p className="hairdresser all-cards-header">Курс</p>
               <p className="hairdresser all-cards-subheader">ПАРИКМАХЕР УНИВЕРСАЛ</p>
-              <p className="hairdresser all-cards-text">26 занятий  </p>
+              <p className="hairdresser-text all-cards-text">26 занятий  </p>
               <p className="hairdresser all-cards-price">20 000 сом</p>
             </div>
               <span className="hairdresser-card-img"></span>
@@ -115,6 +138,7 @@ const MainPage = () => {
 
       </div>
     </div>
+    </>
   );
 };
 
