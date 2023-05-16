@@ -97,7 +97,7 @@ const MainPage = () => {
             <div className="hairdresser-card-block">
               <p className="hairdresser all-cards-header">Курс</p>
               <p className="hairdresser all-cards-subheader">ПАРИКМАХЕР УНИВЕРСАЛ</p>
-              <p className="hairdresser all-cards-text">26 занятий  </p>
+              <p className="hairdresser-text all-cards-text">26 занятий  </p>
               <p className="hairdresser all-cards-price">20 000 сом</p>
             </div>
               <span className="hairdresser-card-img"></span>
