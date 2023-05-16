@@ -115,7 +115,7 @@
 .black-ticker {
     background: black;
     height: 80px;
-    width: 1690px;
+    width: 100%;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -135,7 +135,7 @@
 .yellow-ticker {
     background: yellow;
     height: 80px;
-    width: 1690px;
+    width: 100%;
     overflow: hidden;
     margin: 0 auto;
 }

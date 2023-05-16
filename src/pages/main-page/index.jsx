@@ -23,29 +23,29 @@ const MainPage = () => {
           <span className='main-page-img'></span>
         </div>
       </div>
+    </div>
+
+    <div className='tickers'>
+      <div className="black-ticker">
+
+        <div className="marquee">
+          <span>• Индивидуальный подход • Наилучшие результаты • Востребованность выпускников </span>
+          <span>• Индивидуальный подход • Наилучшие результаты • Востребованность выпускников </span>
+        </div>
+
       </div>
 
-     <div className='tickers'>
-       <div className="black-ticker">
+      <div className="yellow-ticker">
 
-         <div className="marquee">
-           <span>• Индивидуальный подход • Наилучшие результаты • Востребованность выпускников </span>
-           <span>• Индивидуальный подход • Наилучшие результаты • Востребованность выпускников </span>
-         </div>
+        <div className="marquee">
+          <span>• Индивидуальный подход • Наилучшие результаты • Востребованность выпускников </span>
+          <span>• Индивидуальный подход • Наилучшие результаты • Востребованность выпускников </span>
+        </div>
 
-       </div>
+      </div>
+    </div>
 
-       <div className="yellow-ticker">
-
-         <div className="marquee">
-           <span>• Индивидуальный подход • Наилучшие результаты • Востребованность выпускников </span>
-           <span>• Индивидуальный подход • Наилучшие результаты • Востребованность выпускников </span>
-         </div>
-
-       </div>
-     </div>
-
-  <div className='container'>
+    <div className='container'>
       <div className="why-we-wrap">
         <p className="why-we-header">ПОЧЕМУ МЫ?</p>
         <p className="why-we-underline"></p>
