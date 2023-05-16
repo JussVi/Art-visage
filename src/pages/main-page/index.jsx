@@ -25,23 +25,25 @@ const MainPage = () => {
       </div>
       </div>
 
-      <div className="black-ticker">
+     <div className='tickers'>
+       <div className="black-ticker">
 
-        <div className="marquee">
-          <span>• Индивидуальный подход • Наилучшие результаты • Востребованность выпускников </span>
-          <span>• Индивидуальный подход • Наилучшие результаты • Востребованность выпускников </span>
-        </div>
+         <div className="marquee">
+           <span>• Индивидуальный подход • Наилучшие результаты • Востребованность выпускников </span>
+           <span>• Индивидуальный подход • Наилучшие результаты • Востребованность выпускников </span>
+         </div>
 
-      </div>
+       </div>
 
-      <div className="yellow-ticker">
+       <div className="yellow-ticker">
 
-        <div className="marquee">
-          <span>• Индивидуальный подход • Наилучшие результаты • Востребованность выпускников </span>
-          <span>• Индивидуальный подход • Наилучшие результаты • Востребованность выпускников </span>
-        </div>
+         <div className="marquee">
+           <span>• Индивидуальный подход • Наилучшие результаты • Востребованность выпускников </span>
+           <span>• Индивидуальный подход • Наилучшие результаты • Востребованность выпускников </span>
+         </div>
 
-      </div>
+       </div>
+     </div>
 
   <div className='container'>
       <div className="why-we-wrap">

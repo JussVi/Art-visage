@@ -106,6 +106,12 @@
 
     /*Бегущая строка на главной странице */
 
+.tickers {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
 .black-ticker {
     background: black;
     height: 80px;
@@ -135,11 +141,10 @@
 }
 
 .marquee {
-    text-align:left;
+    text-align:center;
     width:100%;
     overflow:hidden;
     white-space: nowrap;
-
 }
 
 .marquee span {
