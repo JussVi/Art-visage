@@ -7,6 +7,7 @@ import Gallery from "./pages/gallery-page";
 import Masters from "./pages/masters-page";
 import Contacts from "./pages/contacts-page";
 import './App.css';
+import Courses from "./pages/courses-page";
 
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
         </Route>
         <Route exact path='/contacts'>
           <Contacts />
+        </Route>
+        <Route exact path='/courses'>
+          <Courses />
         </Route>
       </Switch>
       <Footer />
