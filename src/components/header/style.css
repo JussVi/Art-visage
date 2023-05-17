@@ -9,6 +9,12 @@
     background: url(../../images/icons/logo.svg) center center/contain no-repeat;
     width: 70px;
     height: 70px;
+    animation: spin 12s infinite linear;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 
 .header-nav-menu {
