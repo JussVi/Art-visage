@@ -134,6 +134,7 @@ const MainPage = () => {
               </div>
                 <span className="visagiste-card-img"></span>
           </div>
+          <a href='/courses' className='main-page-button button-center'>Все курсы</a>
         </div>
 
       </div>

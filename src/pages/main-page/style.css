@@ -1,5 +1,4 @@
 .main-page-wrap {
-    padding-top: 130px;
     display: flex;
     justify-content: space-around;
 }
@@ -35,7 +34,8 @@
 
 .main-page-button {
     cursor: pointer;
-    display: inline-block;
+    display: block;
+    width: 280px;
     margin-top: 63px;
     padding: 23px 44px;
     background: #000000;
@@ -276,7 +276,8 @@
 }
 
 .education-header {
-    margin: 0;
+    width: 498px;
+    margin: 0 auto;
     font-weight: 600;
     font-size: 40px;
     line-height: 47px;
@@ -285,7 +286,7 @@
 }
 
 .education-underline {
-    margin: 0 auto;
+    margin: 30px auto 0;
     border: 5px solid #000000;
     border-radius: 20px;
     width: 100px;
@@ -354,7 +355,7 @@
 }
 
 .our-courses-underline {
-    margin: 0 auto;
+    margin: 30px auto 0;
     border: 5px solid #000000;
     border-radius: 20px;
     width: 100px;
@@ -463,4 +464,9 @@
     width: 365px;
     height: 300px;
     margin-left: 85px;
+}
+
+.button-center {
+    margin: 0 auto 50px;
+    text-align: center;
 }
