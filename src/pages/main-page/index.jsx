@@ -10,7 +10,7 @@ const MainPage = () => {
           <h1 className='main-page-header'>Школа парикмахерского искусства</h1>
           <h2 className='main-page-subheader'>Студия Арт Визаж</h2>
           <p className='main-page-text'>Добро пожаловать в Студия Арт Визаж!</p>
-          <button className='main-page-button'>Записаться на курс</button>
+          <a href='https://wa.me/996702766466' className='main-page-button'>Записаться на курс</a>
           <div className='main-block-info'>
             <p className="main-block-info-people">30 000+</p>
             <p className="main-block-info-specialists">выпущенных специалистов</p>

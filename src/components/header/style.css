@@ -1,8 +1,10 @@
 .header-wrap {
+    margin: 0 auto;
     padding-top: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 1440px;
 }
 
 .header-logo {
