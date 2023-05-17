@@ -115,10 +115,10 @@
 .black-ticker {
     background: black;
     height: 80px;
-    width: 100%;
+    width: 1690px;
     overflow: hidden;
     margin: 0 auto;
-    border-radius: 100px;
+    border-radius: 30px;
 }
 
 .black-ticker .marquee span {
@@ -136,10 +136,10 @@
 .yellow-ticker {
     background: yellow;
     height: 80px;
-    width: 100%;
+    width: 1690px;
     overflow: hidden;
     margin: 0 auto;
-    border-radius: 100px;
+    border-radius: 30px;
 }
 
 .marquee {
@@ -158,6 +158,7 @@
     font-size: 40px;
     line-height: 47px;
     color: #000000;
+    margin-left: 166px;
     animation: marquee-yellow 25s linear infinite
 }
 
