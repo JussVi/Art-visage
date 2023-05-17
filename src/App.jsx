@@ -6,8 +6,8 @@ import AboutUs from "./pages/aboutUs-page";
 import Gallery from "./pages/gallery-page";
 import Masters from "./pages/masters-page";
 import Contacts from "./pages/contacts-page";
-import './App.css';
 import Courses from "./pages/courses-page";
+import './App.css';
 
 
 function App() {
