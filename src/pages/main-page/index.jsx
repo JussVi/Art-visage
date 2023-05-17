@@ -76,7 +76,7 @@ const MainPage = () => {
 
       <div className="education-wrap">
         <p className="education-header">ЧТО ВАС ЖДЕТ ПО ОКОНЧАНИЮ ОБУЧЕНИЯ</p>
-        <span className="education-underline"></span>
+        <span className="education-underline"> </span>
         <div className="education-card-block">
           <div className="education-card-wrap">
             <div className="education-card-icon-wrap">
