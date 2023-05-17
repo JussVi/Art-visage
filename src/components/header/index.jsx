@@ -4,12 +4,14 @@ import './style.css'
 const Header = () => {
   return (
     <div className='header-wrap'>
-      <span className="header-logo"></span>
+      <a href="/" className="logo-block">
+        <span className="header-logo"></span>
+      </a>
       <nav className="header-nav-menu">
         <a href="/" className="header-nav-menu-item">Главная</a>
         <a href="/courses" className="header-nav-menu-item">Курсы</a>
         <a href="/about" className="header-nav-menu-item">О нас</a>
-        <a href="/masters" className="header-nav-menu-item">Мастеры</a>
+        <a href="/masters" className="header-nav-menu-item">Мастера</a>
         <a href="/gallery" className="header-nav-menu-item">Галерея</a>
         <a href="/contacts" className="header-nav-menu-item">Контакты</a>
       </nav>
