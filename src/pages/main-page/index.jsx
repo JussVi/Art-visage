@@ -16,7 +16,7 @@ const MainPage = () => {
             <p className="main-block-info-specialists">выпущенных специалистов</p>
             <p className='main-block-info-flat-stick'>|</p>
             <p className='main-block-info-years'>22</p>
-            <p className='main-block-info-text'>года на рынке</p>
+            <p className='main-block-info-text'>года на рынке </p>
           </div>
         </div>
         <div className="main-page-img-wrap">
